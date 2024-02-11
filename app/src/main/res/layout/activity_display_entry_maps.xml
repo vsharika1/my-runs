@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- AppBar / Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mapAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        map:menu="@menu/delete_menu"
+        map:title="Map" />
+
+    <LinearLayout
+        android:id="@+id/data_display_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/type_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Running" />
+        <TextView
+            android:id="@+id/avgSpeed_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avg speed: 0 km/h" />
+        <TextView
+            android:id="@+id/climb_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Climb: 0 Km" />
+        <TextView
+            android:id="@+id/calories_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 0" />
+        <TextView
+            android:id="@+id/distance_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance: 0 Km" />
+    </LinearLayout>
+
+    <!-- Map Fragment -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".DisplayEntryMapsActivity" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Account Preferences"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="profile_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="User Profile"
+            android:title="Name, Email, Class, etc"
+            app:iconSpaceReserved="false">
+            <intent
+                android:targetPackage="com.example.vishavjit_harika"
+                android:targetClass="com.example.vishavjit_harika.ProfileSettingsActivity" />
+        </Preference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="privacy_setting_preference"
+            android:summary="Posting your records anonymously"
+            android:title="Privacy Setting"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Additional Settings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="Default value"
+            android:key="unit_preferences"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Select the units"
+            android:title="Unit Preferences"
+            android:dialogTitle="Unit Preferences"
+            android:entries="@array/unit_preferences"
+            android:entryValues="@array/unit_pref_data"
+            app:iconSpaceReserved="false"/>
+        <EditTextPreference
+            android:key="comments_preferences"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Please enter your comments"
+            android:title="Comments"
+            android:defaultValue=""
+            android:inputType="textMultiLine"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Misc."
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:defaultValue="Default value"
+            android:key="webpage_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="https://www.sfu.ca/computing.html"
+            android:title="Webpage"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.sfu.ca/computing.html" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

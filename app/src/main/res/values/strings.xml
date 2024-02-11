@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Vishavjit_Harika_MyRuns5</string>
+    <string name="settings">Settings</string>
+    <string name="profile_photo">Profile Photo:</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="eg_2012">eg. 2012</string>
+    <string name="class_num">Class</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="your_email">Your Email</string>
+    <string name="save">Save</string>
+    <string name="profile_photo_desc">profile photo</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="male">Male</string>
+    <string name="major">Major</string>
+    <string name="your_major">Your Major</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="email">Email</string>
+    <string name="fragment">FRAGMENT</string>
+    <string name="title_activity_workout">WorkoutActivity</string>
+    <string name="tab_text_1">START</string>
+    <string name="tab_text_2">HISTORY</string>
+    <string name="tab_text_3">SETTINGS</string>
+    <string name="input_type">Input Type</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="selected_item">Selected Item:</string>
+    <string name="start">Start</string>
+    <string-array name="workout_input">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="activity_input">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+    <string name="start_fragment">Start Fragment</string>
+    <string name="duration">Duration</string>
+    <string name="metric_kilometers">Metric (Kilometers)</string>
+    <string name="imperial_miles">Imperial (Miles)</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="select_from_gallery">Select from Gallery</string>
+    <string name="gallery">Gallery</string>
+    <string name="delete_button">Delete</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string-array name="unit_preferences">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+    <string-array name="unit_pref_data">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="title_activity_display_entry_maps">DisplayEntryMapsActivity</string>
+    <string name="channel_name">MyRuns4</string>
+    <string name="channel_description">Notification Channel</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayEntryActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/delete_menu"
+        app:title="MyRuns5" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar2">
+
+        <TextView
+            android:id="@+id/input_type_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/input_type"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_type_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/input_type" />
+
+        <TextView
+            android:id="@+id/activity_type_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/activity_type"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/activity_type_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/activity_type" />
+
+        <TextView
+            android:id="@+id/date_and_time_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/date_and_time"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/date_and_time_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/date_and_time" />
+
+        <TextView
+            android:id="@+id/display_duration_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/duration"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/display_duration_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/duration" />
+
+        <TextView
+            android:id="@+id/display_distance_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/distance"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/display_distance_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/distance" />
+
+        <TextView
+            android:id="@+id/display_calories_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/calories"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/calories" />
+
+        <TextView
+            android:id="@+id/display_heart_rate_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/heart_rate"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/display_heart_rate_editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/heart_rate" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
