@@ -3,6 +3,7 @@
 ## Overview
 
 MyRuns is a comprehensive fitness application designed for Android, focusing on capturing and visualizing your runs and walks through detailed statistics and Google Maps integration. Over a six-week thematic programming project, MyRuns evolves from a simple user interface to a feature-rich fitness app, leveraging sensors like GPS and accelerometers to automatically infer your activities.
+
 ## Key Features
 
 - **Activity Tracking**: Automatically captures your running and walking activities using phone sensors.
@@ -12,7 +13,7 @@ MyRuns is a comprehensive fitness application designed for Android, focusing on 
 
 ## Development Journey
 
-The MyRuns app development is structured around six thematic labs, each focusing on a key aspect of the app:
+The MyRuns app development is structured around five thematic steps, each focusing on a key aspect of the app:
 
 1. **User Profile**: Implementing profile management to save and retrieve user data.
 2. **User Interface (UI)**: Building the app's UI, including navigation and activity management.
